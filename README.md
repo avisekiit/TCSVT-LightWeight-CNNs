@@ -3,7 +3,8 @@ Code for our IEEE TCSVT Paper: Lightweight Modules for Efficient Deep Learning b
 
 Authors: Avisek Lahiri*, Sourav Bairagya*, Sutanu Bera, Siddhant Haldar, Prabir Kumar Biswas <br/>
 (* equal contribution) <br/>
-Paper Link: https://arxiv.org/abs/2007.05835  <br/>
+1. Paper Link: https://arxiv.org/abs/2007.05835  <br/>
+2. IEEE Early Access Link: https://ieeexplore.ieee.org/document/9134805 <br/>
 
 ### Key Points from Paper
 * Paper provides re-usable modules to be plugged and played to compress a given CNN
