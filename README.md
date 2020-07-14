@@ -4,6 +4,14 @@ Code for our IEEE TCSVT Paper: Lightweight Modules for Efficient Deep Learning b
 Authors: Avisek Lahiri*, Sourav Bairagya*, Sutanu Bera, Siddhant Haldar, Prabir Kumar Biswas <br/>
 (* equal contribution) <br/>
 Paper Link: https://arxiv.org/abs/2007.05835  <br/>
+
+### Key Points from Paper
+* Paper provides re-usable modules to be plugged and played to compress a given CNN
+* Select any favourite full-scale baseline for low-level vision applications
+* Replace 3X3 conv by **LIST** layer
+* Replace dilated conv layer **GSAT** layer
+* Achieve efficient up/down-sample with **Bilinear SubSampling** followed by **LIST** layer
+
 ### TensorflowExamples
 This contains the basic proposed modules in Tensorflow<br/>
 TensorflowExamples/basicModules.py contains the proposed **LIST**, **GSAT** modules <br/>
